@@ -11,7 +11,7 @@
         <fileSet>
             <directory>${project.build.directory}</directory>
             <includes>
-                <include>ElaticPlugin-${project.version}.jar</include>
+                <include>IngestElasticPlugin-${project.version}.jar</include>
             </includes>
             <outputDirectory>/</outputDirectory>
         </fileSet>
