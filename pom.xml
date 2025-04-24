@@ -24,6 +24,20 @@
             <scope>provided</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.elasticsearch.plugin</groupId>
+            <artifactId>x-pack-core</artifactId>
+            <version>${elasticsearch.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elasticsearch.plugin</groupId>
+            <artifactId>elasticsearch-plugin-api</artifactId>
+            <version>${elasticsearch.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
         <!-- X-content module -->
         <dependency>
             <groupId>org.elasticsearch</groupId>
